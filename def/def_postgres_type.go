@@ -1,6 +1,9 @@
 package def
 
-import "errors"
+import (
+	"errors"
+	"fmt"
+)
 
 // PgType Postgres Sql
 type PgType = DToken
@@ -39,7 +42,7 @@ func (pg PgType) PGAutoType(typ DToken) string {
 		case Int64, Uint64, Int:
 			return "bigserial"
 		default:
-			return ""
+			return fmt.Sprintf("type (%s) is not as be a autoincrement", typ)
 		}
 	}
 	return ""
