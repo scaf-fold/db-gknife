@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/dk-sirius/db-gknife/def"
+	"github.com/scaf-fold/db-gknife/def"
 )
 
 func TestDParser(t *testing.T) {

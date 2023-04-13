@@ -1,6 +1,6 @@
 package example
 
-import "github.com/dk-sirius/dbx/def/example/tmp"
+import "github.com/scaf-fold/db-gknife/def/example/tmp"
 
 //go:generate Examp
 

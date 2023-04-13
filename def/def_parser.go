@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/dk-sirius/db-gknife/utils"
+	"github.com/scaf-fold/db-gknife/utils"
 )
 
 // DDoc define document
